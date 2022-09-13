@@ -1,0 +1,38 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  color: black;
+  text-shadow: 2px 2px 2px red;
+  /* margin-top: 5rem 1rem; */
+  text-align: center;
+  font-size: 5rem;
+  margin: 2rem 0rem;
+}
+.row-1 {
+  display: flex;
+  margin: 1rem;
+  margin-top: 3rem;
+  width: 100%;
+  justify-content: space-around;
+}
+.row-2 {
+  display: flex;
+  width: 100%;
+  margin-top: 3rem;
+  justify-content: space-around;
+}
+.row-3 {
+  display: flex;
+  width: 100%;
+  margin-top: 3rem;
+  justify-content: space-around;
+}
+.products {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
